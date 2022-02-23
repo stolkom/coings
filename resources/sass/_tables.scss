@@ -1,0 +1,11 @@
+table {
+    width: 100%;
+    border-spacing: 0;
+    background-color: $table-bg;
+}
+th, td {
+    height:  $table-cell-height;
+    padding: $table-cell-padding-y $table-cell-padding-x;
+    border-bottom: $table-border-width solid $table-border-color;
+    vertical-align: bottom;
+}

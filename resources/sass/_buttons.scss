@@ -1,0 +1,25 @@
+.button {
+    height: $button-height;
+    width: $button-width;
+    font-weight: $font-weight-medium;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: $border-radius;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.button-primary {
+    background-color: $primary-100;
+    color: $white;
+    &:hover,
+    &:focus {
+        background-color: $primary-200;
+    }
+    &:active {
+        background-color: $primary-300;
+    }
+    &:disabled {
+        background-color: $gray-100;
+    }
+}

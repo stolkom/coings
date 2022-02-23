@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: $bg-color-default;
+    font-family: $font-family-default;
+    font-size: $font-size-default;
+    font-weight: $font-weight-default;
+    line-height: $line-height-default;
+    text-align: left;
+    color: $color-default;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    font-size: $font-size-lg;
+    line-height: $line-height-lg;
+    margin-top: 64px;
+    margin-bottom: 43px;
+    font-weight: $font-weight-bold;
+}
+
+label {
+    display: block;
+    margin-bottom: $spacer * .5;
+    &.required:after {
+        content: '*';
+        margin-left: $spacer * .5;
+        color: $danger;
+        position: absolute;
+    }
+}
+
+input,
+button,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size:  inherit;
+    line-height: inherit;
+}

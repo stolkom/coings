@@ -1,0 +1,25 @@
+.mt-1 {
+    margin-top: $spacer;
+}
+
+.mb-1 {
+    margin-bottom: $spacer;
+}
+
+.my-2 {
+    margin-top: $spacer * 2;
+    margin-bottom: $spacer * 2;
+}
+
+.ml-2 {
+    margin-left: $spacer * 2;
+}
+
+.mr-2 {
+    margin-right: $spacer * 2;
+}
+
+.px-2 {
+    padding-left: $spacer * 2;
+    padding-right: $spacer * 2;
+}

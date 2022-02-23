@@ -1,0 +1,57 @@
+$white:       #FFFFFF;
+$gray-100:    #E2E8F0;
+$gray-200:    #A0AEC0;
+$gray-300:    #2D3748;
+$primary-100: #4299E1;
+$primary-200: #3182CE;
+$primary-300: #2B6CB0;
+$danger:      #E53E3E;
+$success:     #48BB78;
+
+$font-family-default: Roboto;
+
+$font-weight-normal: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-bold: 700 !default;
+$font-weight-default: $font-weight-normal;
+
+$font-size-default: 16px !default;
+$font-size-lg: 28px !default;
+
+$line-height-default: 18.75px !default;
+$line-height-lg: 32.81px !default;
+
+$color-default: $gray-300;
+$bg-color-default: $white;
+
+/*$container-width: 1440px;*/
+$container-width: 825px;
+
+$border-width: 1px;
+$border-color: $gray-100;
+$border-radius: 4px;
+
+$spacer: 16px;
+
+$button-height: 40px;
+$button-width: 144px;
+
+$input-height: 40px;
+$input-width: 144px;
+$input-width-md: 240px;
+$input-border-width: 1px;
+$input-border-color: $gray-100;
+$input-padding-y: 0;
+$input-padding-x: 16px;
+$input-placeholder-color: $gray-200;
+$input-focus-padding-y: 0;
+$input-focus-padding-x: 15px;
+$input-focus-border-width: 2px;
+$input-focus-border-color: $primary-100;
+
+$table-bg: $white;
+$table-border-width: 1px;
+$table-border-color: $gray-100;
+$table-cell-height: 56px;
+$table-cell-padding-x: 0;
+$table-cell-padding-y: 12px;

@@ -1,0 +1,31 @@
+.input {
+    height: $input-height;
+    width: $input-width;
+    padding: $input-padding-y $input-padding-x;
+    border: $input-border-width solid $input-border-color;
+    border-radius: $border-radius;
+    background-color: $white;
+
+    &::placeholder {
+        color: $input-placeholder-color;
+        opacity: 1;
+    }
+
+    &:focus {
+        outline: none;
+        padding: $input-focus-padding-y $input-focus-padding-x;
+        border: $input-focus-border-width solid $input-focus-border-color;
+    }
+
+    &.input-md {
+        width: $input-width-md;
+    }
+}
+
+.form-row {
+    margin-bottom: 29px;
+}
+
+.input-group {
+    display: inline-block;
+}
