@@ -21,7 +21,7 @@ class OfficesTableSeeder extends Seeder
     public function run()
     {
         foreach ($this->offices as $code => $name) {
-            \App\Model\Office::firstOrCreate(
+            \App\Models\Office::firstOrCreate(
                 ['code' => $code],
                 ['name' => $name]
             );
